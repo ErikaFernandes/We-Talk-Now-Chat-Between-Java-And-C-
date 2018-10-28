@@ -1,0 +1,43 @@
+
+<div class="row">
+    <div class="col" style="background-color:lavender;"><em>FROM</em></div>
+    <div class="col" style="background-color:lavender;"><em>TEXT</em></div>
+    <div class="col" style="background-color:lavender;"><em>DATE</em></div>
+</div>
+<br />
+  <div class="row" *ngFor="let m of msg">
+
+      <div class="col"  *ngIf="m.from === 'C#'" >{{m.from}}</div>
+      <div class="col"  *ngIf="m.from === 'C#'" >{{m.txt}}</div>
+
+      <div class="col"  *ngIf="m.from === 'C#'" >{{ m.date | date:'full' }}</div>
+
+
+
+  <div class="col"  *ngIf="m.from !== 'C#'" style="background-color:lavender;">{{m.from}}</div>
+  <div class="col"  *ngIf="m.from !== 'C#'" style="background-color:lavender;">{{m.txt}}</div>
+
+  <div class="col"  *ngIf="m.from !== 'C#'" style="background-color:lavender;">{{ m.date | date:'full' }}</div>
+
+</div>
+<br /><br />
+  <div #target style="margin-top:12%"></div>
+
+
+<div class="fixed-bottom">
+
+<mat-progress-bar mode="buffer" [value]="progress" *ngIf="posting"></mat-progress-bar>
+
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+        <input [(ngModel)]="msgobj.text" [disabled]="enabdis" [placeholder]="msgPlaceHolder" class="form-control mr-sm-2" type="text" (keyup.enter)="postMessages()" />
+
+        <button class="btn btn-success" [disabled]="enabdis" (click)="postMessages()">Send</button>
+
+    </nav>
+
+</div>
+<audio #audio>
+       <source src='../assets/song/bip_message.wav' type="audio/wav">
+</audio>
