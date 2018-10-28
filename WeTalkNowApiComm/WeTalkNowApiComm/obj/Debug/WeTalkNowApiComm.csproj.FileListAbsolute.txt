@@ -1,0 +1,6 @@
+C:\Users\Microsoft\Documents\Visual Studio 2015\Projects\WeTalkNowApiComm\WeTalkNowApiComm\bin\Debug\WeTalkNowApiComm.exe.config
+C:\Users\Microsoft\Documents\Visual Studio 2015\Projects\WeTalkNowApiComm\WeTalkNowApiComm\bin\Debug\WeTalkNowApiComm.exe
+C:\Users\Microsoft\Documents\Visual Studio 2015\Projects\WeTalkNowApiComm\WeTalkNowApiComm\bin\Debug\WeTalkNowApiComm.pdb
+C:\Users\Microsoft\Documents\Visual Studio 2015\Projects\WeTalkNowApiComm\WeTalkNowApiComm\obj\Debug\WeTalkNowApiComm.csprojResolveAssemblyReference.cache
+C:\Users\Microsoft\Documents\Visual Studio 2015\Projects\WeTalkNowApiComm\WeTalkNowApiComm\obj\Debug\WeTalkNowApiComm.exe
+C:\Users\Microsoft\Documents\Visual Studio 2015\Projects\WeTalkNowApiComm\WeTalkNowApiComm\obj\Debug\WeTalkNowApiComm.pdb
