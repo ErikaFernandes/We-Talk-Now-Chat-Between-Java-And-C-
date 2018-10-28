@@ -14,7 +14,7 @@ public class CSharpSend {
 			socket = new DatagramSocket();
 			byte[] buf = new byte[256];
 
-			InetAddress address = InetAddress.getByName("192.168.0.101");
+			InetAddress address = InetAddress.getByName("127.0.0.1");
 			buf = msg.getBytes();
 			DatagramPacket packet = new DatagramPacket(buf,buf.length, address, 8888);
 			socket.send(packet);
