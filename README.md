@@ -7,7 +7,7 @@ In Angular I'm using MatProgressBarModule to show a progress bar when I send Mes
 (Angular) It has: 
  - Progress Bar
  - Scroll Down when a new message is listed
- - Song that plays when a new message arrive from C#
+ - Ring that plays when a new message arrive from C#
   <br />
 In Java I'm using Spring Boot, Spring MVC, JpaRepository and Socket to connect with C#.  <br />
 I'm using MySQL to save the messages. <br />
